@@ -1,0 +1,4 @@
+#!/bin/bash
+FG_HOME=`pwd`
+FLAME_GRAPHS_HOME=$FG_HOME/lib/FlameGraph
+sudo perf script | $FLAME_GRAPHS_HOME/stackcollapse-perf.pl | $FLAME_GRAPHS_HOME/flamegraph.pl --color=java --hash --title="JVM on-CPU Flame Graph" > flamegraph.svg

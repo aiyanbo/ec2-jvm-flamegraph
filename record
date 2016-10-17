@@ -1,0 +1,4 @@
+#!/bin/bash
+FG_HOME=`pwd`
+sudo rm -f /tmp/perf-*.map
+sudo perf record -F 99 -a -g -- sleep $1; sudo $FG_HOME/jmaps

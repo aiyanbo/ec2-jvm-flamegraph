@@ -1,0 +1,7 @@
+#!/bin/bash
+FG_HOME=`pwd`
+sudo yum install perf gcc
+cd $FG_HOME/lib/perf-map-agent
+cmake .
+make
+echo "Install successful"

@@ -1,0 +1,6 @@
+[submodule "lib/perf-map-agent"]
+	path = lib/perf-map-agent
+	url = https://github.com/jrudolph/perf-map-agent.git
+[submodule "lib/FlameGraph"]
+	path = lib/FlameGraph
+	url = https://github.com/brendangregg/FlameGraph.git
