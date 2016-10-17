@@ -10,7 +10,7 @@ cd ec2-java-flamegraph
 ```
 
 # Configure Java
-Java needs to be running with the -XX:+PreserveFramePointer option, so that perf_events can perform frame pointer stack walks. As mentioned earlier, this can cost some performance, between 0 and 3% depending on the workload.
+Java needs to be running with the `-XX:+PreserveFramePointer` option, so that perf_events can perform frame pointer stack walks. As mentioned earlier, this can cost some performance, between 0 and 3% depending on the workload.
 
 # Synopsis
 
