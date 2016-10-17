@@ -12,7 +12,7 @@ cd ec2-java-flamegraph
 # Synopsis
 
 ```
-./record
+./record 60
 ./flamegraph
 ```
 
