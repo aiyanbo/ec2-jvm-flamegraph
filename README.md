@@ -6,7 +6,14 @@ fetched from [GitHub](https://github.com/aiyanbo/ec2-jvm-flamegraph)
 ```
 git clone --recursive https://github.com/aiyanbo/ec2-jvm-flamegraph.git
 cd ec2-java-flamegraph
-install
+./install
+```
+
+# Synopsis
+
+```
+./record
+./flamegraph
 ```
 
 # Ref
