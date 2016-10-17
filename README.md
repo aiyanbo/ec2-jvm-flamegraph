@@ -1,10 +1,10 @@
 # ec2-jvm-flamegraph
 
 # Install
-fetched from [GitHub](https://github.com/aiyanbo/ec2-java-flamegraph)
+fetched from [GitHub](https://github.com/aiyanbo/ec2-jvm-flamegraph)
 
 ```
-git clone --recursive https://github.com/aiyanbo/ec2-java-flamegraph.git
+git clone --recursive https://github.com/aiyanbo/ec2-jvm-flamegraph.git
 cd ec2-java-flamegraph
 install
 ```
