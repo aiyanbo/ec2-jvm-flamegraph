@@ -23,3 +23,4 @@ Java needs to be running with the `-XX:+PreserveFramePointer` option, so that pe
 
 - [jmaps](https://github.com/brendangregg/Misc/blob/master/java/jmaps)
 - [Java in Flames](http://techblog.netflix.com/2015/07/java-in-flames.html)
+- [perf-map-agent](https://github.com/jvm-profiling-tools/perf-map-agent)
